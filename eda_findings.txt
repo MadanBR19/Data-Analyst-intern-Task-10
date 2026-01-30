@@ -1,0 +1,19 @@
+📄 EDA Findings
+
+Dataset contains both numerical and categorical features.
+
+Missing values observed in some columns; percentage calculated for cleaning decisions.
+
+Several numeric columns showed right-skewed distributions.
+
+Boxplots revealed presence of extreme values.
+
+Outliers detected using IQR method.
+
+Instead of removing rows, outliers were capped to preserve data volume.
+
+Correlation analysis showed strong relationships between key numeric variables.
+
+Some variables showed weak or no correlation.
+
+EDA helps understand structure before modeling.
